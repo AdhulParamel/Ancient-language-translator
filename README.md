@@ -49,4 +49,3 @@ Ancient Egyptian hieroglyphs are complex symbolic representations that are diffi
 
 ---
 
-## Project Structure
