@@ -56,4 +56,3 @@ Traditional football scouting often relies on manual observation and subjective 
 
 ---
 
-## Project Structure
