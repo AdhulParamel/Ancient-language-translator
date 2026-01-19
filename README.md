@@ -1,39 +1,34 @@
-# Football Scouting System – Player Similarity Analysis
+# Ancient Egyptian Hieroglyph Translator
 
 ## Overview
-The Football Scouting System is a data-driven project designed to identify similar football players based on match performance and physical attributes. The system supports scouting and recruitment decisions by comparing players using statistical similarity rather than subjective judgment.
+The Ancient Egyptian Hieroglyph Translator is an NLP-based project designed to translate ancient Egyptian hieroglyphs into modern, readable text. The system focuses on interpreting symbolic representations and converting them into meaningful language while preserving semantic context.
 
-This project uses unsupervised learning techniques, specifically cosine similarity, to measure how closely players resemble each other across multiple performance metrics.
+This project aims to support historical analysis, educational use, and language interpretation through computational methods.
 
 ---
 
 ## Problem Statement
-Traditional football scouting often relies on manual observation and subjective analysis. This project aims to:
-- Reduce bias in player comparison
-- Enable data-driven talent identification
-- Provide a scalable method to compare players across leagues and positions
+Ancient Egyptian hieroglyphs are complex symbolic representations that are difficult to interpret without expert knowledge. This project aims to:
+- Assist in understanding ancient texts
+- Automate the translation of hieroglyphic symbols
+- Provide a scalable framework for ancient language processing
 
 ---
 
 ## Approach
 1. Data Collection  
-   - Player match statistics and physical attributes
+   - Hieroglyph symbol mappings and reference texts  
 
-2. Data Preprocessing  
-   - Handling missing values  
-   - Feature selection  
-   - Normalization of numerical features  
+2. Text Preprocessing  
+   - Symbol normalization  
+   - Tokenization and cleaning  
 
-3. Feature Engineering  
-   - Aggregation of performance metrics  
-   - Scaling to ensure fair similarity comparison  
+3. Translation Logic  
+   - Rule-based and pattern-mapping techniques  
+   - Language transformation to modern text  
 
-4. Similarity Computation  
-   - Applied cosine similarity to compute player likeness  
-   - Ranked players based on similarity scores  
-
-5. Result Interpretation  
-   - Identified players with similar playing styles and performance profiles  
+4. Output Generation  
+   - Human-readable translated text  
 
 ---
 
@@ -42,17 +37,16 @@ Traditional football scouting often relies on manual observation and subjective 
 - Libraries:  
   - Pandas  
   - NumPy  
-  - Scikit-learn  
-  - Matplotlib  
-  - Seaborn  
+  - Natural Language Toolkit (NLTK)  
 
 ---
 
 ## Key Features
-- Unsupervised player similarity analysis
-- Normalized and feature-engineered player metrics
-- Scalable framework for scouting use cases
-- Data-driven support for recruitment decisions
+- Translation of ancient Egyptian hieroglyphs to modern text  
+- Symbol-to-text mapping and preprocessing  
+- NLP-based language transformation  
+- Extensible design for additional ancient languages  
 
 ---
 
+## Project Structure
